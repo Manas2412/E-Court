@@ -1,0 +1,112 @@
+.Login{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px;
+}
+
+
+.LoginPage {
+    width: 600px;
+    margin: 30px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    background-color: #fff;
+  }
+  
+  .LoginPage h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #444;
+  }
+  
+  .LoginPage label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #444;
+  }
+  
+  .LoginPage input[type="text"],
+  .LoginPage input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  .LoginPage button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .LoginPage button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+
+  .RegisterNow button[type="submit"]:hover{
+    background-color: aqua;
+  }
+
+  .name{
+    max-width:  700px;
+    font-size: large;
+  }
+
+
+  .select-container {
+    margin-bottom: 10px;
+  }
+  
+  .select-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #444;
+  }
+  
+  .select-container select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  .radio-container {
+    margin-bottom: 10px;
+  }
+  
+  .radio-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #444;
+  }
+  
+  .radio-container input[type="radio"] {
+    margin-right: 5px;
+  }
+
+  .RadioButtons{
+    display: flex;
+    /* align-items: center;
+    justify-content: space-evenly; */
+    
+  }
+  
+  .aboutImg{
+    margin-left: 250px;
+  }
+
